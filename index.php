@@ -55,8 +55,7 @@
 
          } else {
 
-         $post_query_count = "SELECT * FROM posts WHERE post_status = 'published'";
-
+        
          }   
 
         $find_count = mysqli_query($connection,$post_query_count);
